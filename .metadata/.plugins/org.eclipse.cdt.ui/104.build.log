@@ -1,0 +1,15 @@
+12:45:40 **** Build of configuration Debug for project 104 ****
+make all 
+Building file: ../src/104.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/104.d" -MT"src/104.o" -o "src/104.o" "../src/104.c"
+Finished building: ../src/104.c
+ 
+Building target: 104
+Invoking: MacOS X C Linker
+gcc  -o "104"  ./src/104.o   
+Finished building target: 104
+ 
+
+12:45:40 Build Finished (took 209ms)
+

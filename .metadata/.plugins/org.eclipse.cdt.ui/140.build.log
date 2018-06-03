@@ -1,0 +1,15 @@
+12:45:41 **** Build of configuration Debug for project 140 ****
+make all 
+Building file: ../src/140.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/140.d" -MT"src/140.o" -o "src/140.o" "../src/140.c"
+Finished building: ../src/140.c
+ 
+Building target: 140
+Invoking: MacOS X C Linker
+gcc  -o "140"  ./src/140.o   
+Finished building target: 140
+ 
+
+12:45:42 Build Finished (took 228ms)
+

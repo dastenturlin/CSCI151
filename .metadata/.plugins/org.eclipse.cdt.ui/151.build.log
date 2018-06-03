@@ -1,0 +1,22 @@
+12:45:42 **** Build of configuration Debug for project 151 ****
+make all 
+Building file: ../src/151.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/151.d" -MT"src/151.o" -o "src/151.o" "../src/151.c"
+../src/151.c:56:9: warning: unused variable 'fanglz' [-Wunused-variable]
+        Square fanglz =
+               ^
+../src/151.c:71:9: warning: unused variable 'squares' [-Wunused-variable]
+        Square squares[5] =
+               ^
+2 warnings generated.
+Finished building: ../src/151.c
+ 
+Building target: 151
+Invoking: MacOS X C Linker
+gcc  -o "151"  ./src/151.o   
+Finished building target: 151
+ 
+
+12:45:42 Build Finished (took 330ms)
+

@@ -1,0 +1,15 @@
+23:18:17 **** Incremental Build of configuration Debug for project acmp387 ****
+make all 
+Building file: ../src/acmp387.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/acmp387.d" -MT"src/acmp387.o" -o "src/acmp387.o" "../src/acmp387.cpp"
+Finished building: ../src/acmp387.cpp
+ 
+Building target: acmp387
+Invoking: MacOS X C++ Linker
+g++  -o "acmp387"  ./src/acmp387.o   
+Finished building target: acmp387
+ 
+
+23:18:18 Build Finished (took 596ms)
+

@@ -1,0 +1,15 @@
+13:12:56 **** Incremental Build of configuration Debug for project 241 ****
+make all 
+Building file: ../src/241.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/241.d" -MT"src/241.o" -o "src/241.o" "../src/241.c"
+Finished building: ../src/241.c
+ 
+Building target: 241
+Invoking: MacOS X C Linker
+gcc  -o "241"  ./src/241.o   
+Finished building target: 241
+ 
+
+13:12:56 Build Finished (took 176ms)
+

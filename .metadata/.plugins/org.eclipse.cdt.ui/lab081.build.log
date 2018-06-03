@@ -1,0 +1,29 @@
+16:58:11 **** Build of configuration Debug for project lab081 ****
+make all 
+Building file: ../src/081.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/081.d" -MT"src/081.o" -o "src/081.o" "../src/081.c"
+../src/081.c:16:14: warning: format specifies type 'int *' but the argument has type 'int' [-Wformat]
+        scanf("%i", number);
+               ~~   ^~~~~~
+../src/081.c:23:15: warning: format specifies type 'int *' but the argument has type 'int' [-Wformat]
+                scanf("%i", number);
+                       ~~   ^~~~~~
+../src/081.c:16:14: warning: variable 'number' is uninitialized when used here [-Wuninitialized]
+        scanf("%i", number);
+                    ^~~~~~
+../src/081.c:15:12: note: initialize the variable 'number' to silence this warning
+        int number;
+                  ^
+                   = 0
+3 warnings generated.
+Finished building: ../src/081.c
+ 
+Building target: lab081
+Invoking: MacOS X C Linker
+gcc  -o "lab081"  ./src/081.o   
+Finished building target: lab081
+ 
+
+16:58:11 Build Finished (took 343ms)
+

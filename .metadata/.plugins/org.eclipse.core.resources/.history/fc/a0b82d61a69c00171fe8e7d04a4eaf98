@@ -1,0 +1,27 @@
+/*
+ ============================================================================
+ Name        : sineapp.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main(void) {
+	 double x;
+	 scanf("%lf", &x);
+
+	 double sin;
+
+	 //sin = x - pow(x,3)/6 + pow(x,5)/125;
+	 double y = pow(x,3);
+	 //double z = y/6;
+
+	 printf("%f", y);
+	 return 0;
+}

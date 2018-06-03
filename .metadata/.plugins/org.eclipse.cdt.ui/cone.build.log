@@ -1,0 +1,14 @@
+19:48:13 **** Incremental Build of configuration Debug for project cone ****
+make all 
+Building target: cone
+Invoking: MacOS X C Linker
+gcc  -o "cone"  ./src/cone.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+     implicit entry/start for main executable
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [cone] Error 1
+
+19:48:13 Build Finished (took 133ms)
+

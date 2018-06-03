@@ -1,0 +1,15 @@
+12:45:41 **** Build of configuration Debug for project 131 ****
+make all 
+Building file: ../src/131.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/131.d" -MT"src/131.o" -o "src/131.o" "../src/131.c"
+Finished building: ../src/131.c
+ 
+Building target: 131
+Invoking: MacOS X C Linker
+gcc  -o "131"  ./src/131.o   
+Finished building target: 131
+ 
+
+12:45:41 Build Finished (took 176ms)
+

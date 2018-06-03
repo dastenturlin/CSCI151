@@ -1,0 +1,15 @@
+18:31:24 **** Incremental Build of configuration Debug for project cplusplus ****
+make all 
+Building file: ../src/cplusplus.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/cplusplus.d" -MT"src/cplusplus.o" -o "src/cplusplus.o" "../src/cplusplus.cpp"
+Finished building: ../src/cplusplus.cpp
+ 
+Building target: cplusplus
+Invoking: MacOS X C++ Linker
+g++  -o "cplusplus"  ./src/cplusplus.o   
+Finished building target: cplusplus
+ 
+
+18:31:25 Build Finished (took 495ms)
+

@@ -1,0 +1,19 @@
+17:12:29 **** Incremental Build of configuration Debug for project 242 ****
+make all 
+Building file: ../src/242.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/242.d" -MT"src/242.o" -o "src/242.o" "../src/242.c"
+../src/242.c:37:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+Finished building: ../src/242.c
+ 
+Building target: 242
+Invoking: MacOS X C Linker
+gcc  -o "242"  ./src/242.o   
+Finished building target: 242
+ 
+
+17:12:29 Build Finished (took 231ms)
+

@@ -1,0 +1,50 @@
+12:45:47 **** Build of configuration Debug for project example ****
+make all 
+Building file: ../src/example.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/example.d" -MT"src/example.o" -o "src/example.o" "../src/example.c"
+../src/example.c:15:2: error: use of undeclared identifier 'FILE'
+        FILE *file;
+        ^
+../src/example.c:15:8: error: use of undeclared identifier 'file'
+        FILE *file;
+              ^
+../src/example.c:16:2: error: use of undeclared identifier 'file'
+        file = fopen("datafile.txt", "w");
+        ^
+../src/example.c:16:9: warning: implicit declaration of function 'fopen' is invalid in C99 [-Wimplicit-function-declaration]
+        file = fopen("datafile.txt", "w");
+               ^
+../src/example.c:18:6: error: use of undeclared identifier 'file'
+        if (file == NULL) {
+            ^
+../src/example.c:19:3: warning: implicitly declaring library function 'printf' with type 'int (const char *, ...)' [-Wimplicit-function-declaration]
+                printf("Problem opening file.");
+                ^
+../src/example.c:19:3: note: include the header <stdio.h> or explicitly provide a declaration for 'printf'
+../src/example.c:25:2: warning: implicit declaration of function 'fprintf' is invalid in C99 [-Wimplicit-function-declaration]
+        fprintf(file, "FPRINTF IS TO DO SO INTO THE TEXTFILE");
+        ^
+../src/example.c:25:2: warning: declaration of built-in function 'fprintf' requires inclusion of the header <stdio.h> [-Wbuiltin-requires-header]
+../src/example.c:25:10: error: use of undeclared identifier 'file'; did you mean 'free'?
+        fprintf(file, "FPRINTF IS TO DO SO INTO THE TEXTFILE");
+                ^~~~
+                free
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/stdlib.h:143:7: note: 'free' declared here
+void     free(void *);
+         ^
+../src/example.c:27:2: warning: implicit declaration of function 'fclose' is invalid in C99 [-Wimplicit-function-declaration]
+        fclose(file);
+        ^
+../src/example.c:27:9: error: use of undeclared identifier 'file'; did you mean 'free'?
+        fclose(file);
+               ^~~~
+               free
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/stdlib.h:143:7: note: 'free' declared here
+void     free(void *);
+         ^
+5 warnings and 6 errors generated.
+make: *** [src/example.o] Error 1
+
+12:45:47 Build Finished (took 178ms)
+

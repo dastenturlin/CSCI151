@@ -1,0 +1,15 @@
+02:37:21 **** Incremental Build of configuration Debug for project plusesandstars ****
+make all 
+Building file: ../src/plusesandstars.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/plusesandstars.d" -MT"src/plusesandstars.o" -o "src/plusesandstars.o" "../src/plusesandstars.c"
+Finished building: ../src/plusesandstars.c
+ 
+Building target: plusesandstars
+Invoking: MacOS X C Linker
+gcc  -o "plusesandstars"  ./src/plusesandstars.o   
+Finished building target: plusesandstars
+ 
+
+02:37:21 Build Finished (took 177ms)
+

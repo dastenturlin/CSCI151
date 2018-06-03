@@ -1,0 +1,15 @@
+03:03:05 **** Incremental Build of configuration Debug for project 210 ****
+make all 
+Building file: ../src/210.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/210.d" -MT"src/210.o" -o "src/210.o" "../src/210.c"
+Finished building: ../src/210.c
+ 
+Building target: 210
+Invoking: MacOS X C Linker
+gcc  -o "210"  ./src/210.o   
+Finished building target: 210
+ 
+
+03:03:05 Build Finished (took 173ms)
+

@@ -1,0 +1,30 @@
+/*
+ ============================================================================
+ Name        : conversion.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main(void) {
+	double baseHeight=10;
+	double baseRadius=10;
+
+	double surfaceArea = 3,14 * baseRadius * (sqrt(baseRadius*baseRadius+baseHeight*baseHeight));
+			//πr(r+h2+r2)
+	double baseArea = 3,14 * baseRadius * baseRadius;
+
+	double volume = 3,14 * baseRadius * baseRadius * baseHeight/3;
+
+	printf("%f","%f","%f", surfaceArea, baseArea, volume);
+
+	return 0;
+
+
+}

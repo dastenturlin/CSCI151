@@ -1,0 +1,19 @@
+12:45:43 **** Build of configuration Debug for project 171 ****
+make all 
+Building file: ../src/171.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/171.d" -MT"src/171.o" -o "src/171.o" "../src/171.c"
+../src/171.c:28:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+Finished building: ../src/171.c
+ 
+Building target: 171
+Invoking: MacOS X C Linker
+gcc  -o "171"  ./src/171.o   
+Finished building target: 171
+ 
+
+12:45:44 Build Finished (took 201ms)
+

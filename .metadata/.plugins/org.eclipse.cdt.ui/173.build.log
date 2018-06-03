@@ -1,0 +1,15 @@
+12:45:44 **** Build of configuration Debug for project 173 ****
+make all 
+Building file: ../src/173.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/173.d" -MT"src/173.o" -o "src/173.o" "../src/173.c"
+Finished building: ../src/173.c
+ 
+Building target: 173
+Invoking: MacOS X C Linker
+gcc  -o "173"  ./src/173.o   
+Finished building target: 173
+ 
+
+12:45:44 Build Finished (took 250ms)
+

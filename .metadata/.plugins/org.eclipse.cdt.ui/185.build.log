@@ -1,0 +1,15 @@
+12:45:45 **** Build of configuration Debug for project 185 ****
+make all 
+Building file: ../src/185.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/185.d" -MT"src/185.o" -o "src/185.o" "../src/185.c"
+Finished building: ../src/185.c
+ 
+Building target: 185
+Invoking: MacOS X C Linker
+gcc  -o "185"  ./src/185.o   
+Finished building target: 185
+ 
+
+12:45:45 Build Finished (took 192ms)
+

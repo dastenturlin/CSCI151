@@ -1,0 +1,6 @@
+23:41:33 **** Incremental Build of configuration Debug for project biggestpower ****
+make all 
+make: Nothing to be done for `all'.
+
+23:41:34 Build Finished (took 83ms)
+
